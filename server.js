@@ -10,6 +10,8 @@ var db      = mongojs('contactlist', ['contactlist']);
  * app.get('/', function(req, res){
    res.send("Hello Creative from the server!");
    });
+
+
  */
 
 app.use(express.static(__dirname + "/public"));

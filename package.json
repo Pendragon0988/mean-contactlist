@@ -1,0 +1,17 @@
+{
+  "name": "contactlist",
+  "version": "1.0.0",
+  "description": "Mean Contacts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MongoDB",
+    "ExpressJS",
+    "AngularJS",
+    "NodeJS"
+  ],
+  "author": "Brian Matthew B. Mamaril",
+  "license": "ISC"
+}

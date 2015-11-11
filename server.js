@@ -7,10 +7,10 @@ var db      = mongojs('contactlist', ['contactlist']);
 /*
  * Step 1: Test the server connection
  *
+ * app.get('/', function(req, res){
+   res.send("Hello Creative from the server!");
+   });
  */
-// app.get('/', function(req, res){
-//   res.send("Hello Creative from the server!");
-// });
 
 app.use(express.static(__dirname + "/public"));
 

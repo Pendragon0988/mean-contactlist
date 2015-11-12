@@ -1,17 +1,28 @@
 {
   "name": "contactlist",
-  "version": "1.0.0",
-  "description": "Mean Contacts",
+  "version": "0.0.1",
+  "description": "MEAN Contact List",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pendragon0988@bitbucket.org/pendragon0988/mean-contactlist.git"
+  },
   "keywords": [
+    "MEAN",
     "MongoDB",
     "ExpressJS",
     "AngularJS",
     "NodeJS"
   ],
-  "author": "Brian Matthew B. Mamaril",
-  "license": "ISC"
+  "author": "Brian Matthew Mamaril",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/pendragon0988/mean-contactlist#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongojs": "^1.4.1"
+  }
 }
